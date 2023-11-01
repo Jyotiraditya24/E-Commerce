@@ -1,10 +1,11 @@
 import "./App.css";
-import ProductList from "./features/productList/productList";
+import Home from "./pages/Home";
 
 function App() {
+  
   return (
-    <div className="bg-red-400 ">
-      <ProductList></ProductList>
+    <div>
+      <Home></Home>
     </div>
   );
 }
